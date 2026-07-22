@@ -112,3 +112,48 @@ button:hover{
     box-shadow:0 15px 30px rgba(0,0,0,.12);
 
 }
+.letter{
+
+    background:white;
+
+    padding:120px 25px;
+
+}
+
+.letter-box{
+
+    max-width:800px;
+
+    margin:auto;
+
+    background:white;
+
+    padding:60px;
+
+    border-radius:20px;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.08);
+
+}
+
+.letter-box h2{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:48px;
+
+    margin-bottom:30px;
+
+    color:#8A6E5A;
+
+}
+
+.letter-box p{
+
+    font-size:20px;
+
+    line-height:2;
+
+    margin-bottom:30px;
+
+}
