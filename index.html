@@ -203,6 +203,9 @@ height:auto;
 </style>
 </head>
 <body>
+    <audio id="bgMusic" loop>
+    <source src="assets/music/you-are-my-sunshine.mp3" type="audio/mpeg">
+</audio>
 <section class="hero reveal">
 <div class="container">
 <h1>To My Kambal Tuko 🌻</h1>
@@ -211,6 +214,13 @@ A letter you'll always have,
 wherever life takes you.
 </p>
 <a class="btn" href="#letter">Open My Letter ❤️</a>
+<br><br>
+
+<button id="musicBtn" class="btn">
+
+🎵 Play Our Song
+
+</button>
 <p><img src="assets/images/Butterfly.gif" alt="Butterfly" class="hero-butterfly"></p>
 </div>
 </section>
@@ -458,6 +468,25 @@ function reveal(){
 window.addEventListener("scroll", reveal);
 
 reveal();
+
+const music = document.getElementById("bgMusic");
+const musicBtn = document.getElementById("musicBtn");
+
+musicBtn.addEventListener("click", ()=>{
+
+    if(music.paused){
+
+        music.play();
+        musicBtn.innerHTML="⏸ Pause Our Song";
+
+    }else{
+
+        music.pause();
+        musicBtn.innerHTML="🎵 Play Our Song";
+
+    }
+
+});
 
 </script>
 </body>
