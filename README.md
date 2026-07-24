@@ -1,2 +1,2 @@
-# to-my-kambal-tuko
-A wedding gift for my best friend. (August 22, 2026)
+# If you're reading this years from now...
+This is my wedding gift for my best friend. (August 22, 2026)
